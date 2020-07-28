@@ -9,7 +9,7 @@ Zanim uruchomisz bota zapoznaj się z założeniami dotyczącymi jego działania
 
 Jak uruchomić bota:
 1. Zaloguj się do swojego konta Gladiatus w przeglądarce.
-2. Znajdź wartości dwóch ciasteczek "Gladiatus_pl_40" i "PHPSESSID". Dostęp do nich różni się w zależności od przeglądarki (np. w Firefoxie jest to Shift+F9). Skopiuj te wartości do pliku "start.bat" w odpowiednich miejscach po znakach równości, bez dodawania żadnych spacji.
+2. Znajdź wartości dwóch ciasteczek "Gladiatus_pl_40" i "PHPSESSID". Dostęp do nich różni się w zależności od przeglądarki (np. w Firefoxie jest to Shift+F9). Skopiuj te wartości do pliku "start.bat" w odpowiednich miejscach po znakach równości, bez dodawania żadnych spacji. W przypadku ciasteczka "Gladiatus_pl_40", będzie ono zawierało znak "%" (procent). Trzeba przed nim dopisać jeszcze jeden taki sam znak, żeby były dwa obok siebie: "%%".
 3. Z linka otwartej strony w Gladiatusie skopiuj wartość ostatniego parametru "sh" (po znaku równości) i wklej go do tego samego pliku "start.bat" (też po znaku równości, bez dodawania spacji).
 4. Po ustawieniu wszystkich trzech parametrów, uruchom bota plikiem "start.bat", a on podepnie się do przekazanej sesji logowania. Bot będzie działał w ten sposób, dopóki podana sesja logowania jest aktywna, tzn. dopóki sam się nie wylogujesz, albo zalogujesz się z innego urządzenia. Wówczas cały proces uruchomienia trzeba powtórzyć. Dlatego najlepiej nie zamykać przeglądarki i nie logować się z innych urządzeń, jak np. z telefonu.
 
